@@ -120,6 +120,7 @@ h1 {
     font-variant-caps: all-small-caps;
 }
 
+
 .produkt {
     color: #959595;
 
@@ -131,8 +132,8 @@ h1 {
 }
 
 .parametr {
-    font-size: 14px;
-    font-weight: normal;
+    font-size: 18px;
+    font-weight: bold;
     font-variant-caps: all-small-caps;
 }
 
@@ -153,12 +154,13 @@ li {
     flex-basis: 16.33333%;
     justify-content: space-between;
     font-size: 14px;
+
     
 }
 
 .vybrana {
     border: 1px solid red;
-    padding: 3px;
+    padding: 0px;
     border-radius: 50%;
 }
 
@@ -180,6 +182,9 @@ li a:hover {
 
 }
 
+ul {
+    list-style-type: none; /*pro zbaveni se bullet points v listu*/
+}
 
 .tlacitko a:hover {
     background-color: rgb(116, 30, 30);
