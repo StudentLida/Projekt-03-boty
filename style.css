@@ -158,11 +158,20 @@ li {
     
 }
 
+/* aby se nezobrazoval obdelnik nebo oval, vypnout
 .vybrana {
     border: 1px solid red;
     padding: 0px;
+    /*border-radius: 50%;*/
+    
+}
+*/
+
+.vybrana a {
+    border: 1px solid red;
     border-radius: 50%;
 }
+
 
 li a:hover {
     border: 1px solid red;
