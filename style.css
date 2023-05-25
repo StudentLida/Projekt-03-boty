@@ -195,6 +195,11 @@ ul {
     list-style-type: none; /*pro zbaveni se bullet points v listu*/
 }
 
+li a {
+    text-decoration: none;
+    color: black;
+}
+
 .tlacitko a:hover {
     background-color: rgb(116, 30, 30);
 }
